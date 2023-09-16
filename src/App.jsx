@@ -3,8 +3,9 @@ import { useState } from 'react'
 import './App.css'
 import Dynamic from './component/Dynamic'
 import Fetch_data from './component/Fetch_data'
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Header from './component/Header';
 
 function App() {
   const [name, setname] = useState([])
@@ -39,6 +40,7 @@ function App() {
 
   return (
     <>
+      <Header></Header>
       <div className='flex flex-col flex-1 lg:flex-row gap-5 '>
         <div className='lg:w-[78%] w-full'>
           <Fetch_data evenhandle={evenhandle} ></Fetch_data>
@@ -46,9 +48,11 @@ function App() {
         <div className='lg:w-[22%] w-full'>
           <Dynamic name={name} cradit={cradit} remaining={remaining}></Dynamic>
         </div>
+        <ToastContainer></ToastContainer>
       </div>
     </>
   )
 }
+
 
 export default App

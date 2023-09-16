@@ -1,5 +1,5 @@
 import { FaBookOpen } from 'react-icons/fa'
-import { ToastContainer } from 'react-toastify';
+
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -7,7 +7,7 @@ const Card = ({ cart, evenhandle }) => {
     const { id, img, course_name, details, price, credits } = cart;
     return (
         <div className="">
-            <div className="card w-full bg-base-100 shadow-xl p-5">
+            <div className="card w-full h-full bg-base-100 shadow-xl p-5">
                 <div>
                     <img src={img} alt="" />
                 </div>
@@ -20,7 +20,7 @@ const Card = ({ cart, evenhandle }) => {
                     <p className="text-[#1C1B1B99] font-medium"><FaBookOpen className='inline'></FaBookOpen> Credit : {credits}<span>hr</span></p>
                 </div>
                 <button onClick={() => evenhandle(cart)} className="w-full bg-[#2F80ED] py-3 px-6 text-center rounded-lg text-white font-semibold text-xl">Select</button>
-                <ToastContainer></ToastContainer>
+
             </div>
         </div>
     );

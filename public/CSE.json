@@ -3,7 +3,7 @@
       {
         "id": 1,
         "img": "https://i.ibb.co/YDmwSMZ/Rectangle-2.png",
-        "course_name": "Basic Machine Learning",
+        "course_name": "Introduction to OOP Python",
         "details": "Explore  machine learning techniques and algorithms.",
         "price": 12000,
         "credits": 3
@@ -11,8 +11,8 @@
       {
         "id": 2,
         "img": "https://i.ibb.co/5Gg9PWY/Rectangle-2-1.png",
-        "course_name": "Artificial Intelligence Ethics",
-        "details": "Examine the ethical considerations in artificial intelligence.",
+        "course_name": "Database (MySQL)",
+        "details": "A MySQL database is a structured collection of data organized.",
         "price": 11000,
         "credits": 2
       },
@@ -27,7 +27,7 @@
       {
         "id": 4,
         "img": "https://i.ibb.co/wsCM0qw/Rectangle-2-3.png",
-        "course_name": "Cybersecurity Advanced Topics",
+        "course_name": "Introduction to Algorithms",
         "details": "Explore advanced topics in cybersecurity and threat analysis.",
         "price": 11500,
         "credits": 2
@@ -43,15 +43,15 @@
       {
         "id": 6,
         "img": "https://i.ibb.co/PhknSsf/Rectangle-2-5.png",
-        "course_name": "Machine Learning for Business",
-        "details": "Apply machine learning techniques to solve real-world business.",
+        "course_name": "Software Engineering",
+        "details": "Software engineering is the systematic application.",
         "price": 12000,
         "credits": 3
       },
       {
         "id": 7,
         "img": "https://i.ibb.co/d6GfVwC/Rectangle-2-6.png",
-        "course_name": "Natural Language Processing",
+        "course_name": "Problem-Solving Part",
         "details": "Learn about natural language processing and text analysis.",
         "price": 12500,
         "credits": 3
@@ -67,7 +67,7 @@
       {
         "id": 9,
         "img": "https://i.ibb.co/DpYf5Wz/Rectangle-3-1.png",
-        "course_name": "Blockchain Technology",
+        "course_name": "AWS, Cloud Computing",
         "details": "Study blockchain technology and its applications.",
         "price": 12000,
         "credits": 3
