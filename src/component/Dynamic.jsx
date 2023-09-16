@@ -10,7 +10,7 @@ const Dynamic = ({ name, remaining, cradit }) => {
 
             {
                 name.map(info => (
-                    <li className="list-decimal text-sm py-1">{info.course_name}</li>
+                    <li className="list-decimal text-sm py-1 px-3">{info.course_name}</li>
                 ))
             }
             <hr />
